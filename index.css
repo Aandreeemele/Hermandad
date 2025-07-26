@@ -1,10 +1,19 @@
+body {
+    overflow: hidden;
+  }
+  
 .content{
     width: 400px;
     height: 800px;
-    border: 1px solid black;
     margin: auto;
+}
+.img0{
+    width: 400px;
+    position: relative;
+    top: -30rem;
 }
 .img1{
     width: 400px;
     position: relative;
+    top: 24.1rem;
 }
