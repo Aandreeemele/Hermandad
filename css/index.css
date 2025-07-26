@@ -34,7 +34,7 @@ body {
 
 /* Imagen decorativa con borde difuminado */
 .img2 {
-    width: 90%;
+    width: 100%;
     height: auto;
     max-width: 400px;
     margin: 0 auto;
@@ -48,6 +48,8 @@ body {
         rgba(0,0,0,0) 100%);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: 100% 100%;
+    position: relative;
+    top: 19rem;
 }
 
 /* Título centrado */
@@ -56,6 +58,8 @@ body {
     top: 6vh;
     font-size: 1.5rem;
     color: #333;
+    position: relative;
+    top: 20rem;
 }
 
 /* Subtítulo */
@@ -64,6 +68,8 @@ body {
     top: 7vh;
     font-size: 1rem;
     color: #444;
+    position: relative;
+    top: 20rem;
 }
 
 /* Botón principal */
@@ -78,6 +84,8 @@ body {
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    position: relative;
+    top: 22rem;
 }
 
 .btn-inscribirme:hover {
@@ -101,19 +109,22 @@ body {
     top: -1rem;
 }
 
-/* Contenedor de botones extra */
 .contenedor-botones {
     position: absolute;
-    bottom: 5vh;
-    width: 100%;
+    max-width: 400px;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.75rem;
+    padding: 0 0.5rem;
+    position: relative;
+    top: -15rem;
 }
 
-/* Botón adicional */
 .btn-inscripcion {
-    padding: 10px 20px;
+    width: 350px;
     font-size: 1rem;
     color: black;
     border: none;
@@ -122,6 +133,9 @@ body {
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.385);
     transition: background-color 0.3s ease;
+    box-sizing: border-box;
+    position: relative;
+    top: -5rem;
 }
 
 .btn-inscripcion:hover {
