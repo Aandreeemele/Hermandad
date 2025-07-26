@@ -1,9 +1,14 @@
+body{
+    overflow: hidden;
+    background-color: #edded4;
+
+}
 .content {
     width: 400px;
     height: 800px;
     margin: auto;
     position: relative;
-    overflow: hidden;
+ 
 }
 
 .img1 {
@@ -12,6 +17,6 @@
     object-fit: cover;
     position: absolute;
     top: 0;
-    left: 0;
+    left: -0.3rem;
     z-index: -1;
 }
